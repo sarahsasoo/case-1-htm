@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenemang</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Om mig</a>
+        <a href="stockholm.html">Stockholm</a>
+        <a href="event.html">Evenemang</a>
+        <a href="gallery.html">Galleri</a>
+    </nav>
+
+    <header>
+        <p>Välkommen till min webbplats!</p>
+    </header>
+
+    <main>
+        <h1>Evenemang</h1>
+
+        <h2>Stockholms kulturdag</h2>
+
+        <p>
+            Välkommen till Stockholms kulturdag. Under dagen kan
+            besökare uppleva musik, mat och olika aktiviteter.
+        </p>
+
+        <form method="GET">
+
+            <fieldset>
+                <legend>Anmäl dig till evenemanget</legend>
+
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date">
+                <br><br>
+
+                <label for="number">Antal personer:</label>
+                <input type="number" id="number" name="number">
+                <br><br>
+
+                <label for="type">Välj aktivitet:</label>
+                <select id="type" name="type">
+                    <option value="music">Musik</option>
+                    <option value="food">Mat</option>
+                    <option value="culture">Kultur</option>
+                </select>
+                <br><br>
+
+                <label for="message">Meddelande:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                <br><br>
+
+                <input type="submit" value="Skicka anmälan">
+
+            </fieldset>
+
+        </form>
+
+        <p>
+            Läs mer om Stockholm på
+            <a href="https://www.visitstockholm.com/" target="_blank">
+                Visit Stockholm
+            </a>
+        </p>
+
+    </main>
+
+    <footer>
+        <p>GitHub: sarahsasoo</p>
+    </footer>
+
+</body>
+</html>
